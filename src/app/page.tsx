@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -11,7 +11,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Star, ChefHat, Users, MessageCircle, HelpCircle, Calendar } from 'lucide-react';
+import { Award, Star, ChefHat, Users, MessageCircle, HelpCircle, Calendar, Instagram, Linkedin, Twitter, Globe } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -31,7 +31,6 @@ export default function Home() {
           ]}
           brandName="Bella Vista"
           logoSrc="https://images.pexels.com/photos/34450955/pexels-photo-34450955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          logoAlt="Free stock photo of architecture, branding, brown"
         />
       </div>
 
@@ -146,8 +145,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/34490382/pexels-photo-34490382.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Elegant display of gourmet Argentine appetizers on a black slate with artistic garnishing.",
               socialLinks: [
-                { icon: "Instagram", url: "https://instagram.com/chef.marco" },
-                { icon: "Linkedin", url: "https://linkedin.com/in/marcorossi" }
+                { icon: Instagram, url: "https://instagram.com/chef.marco" },
+                { icon: Linkedin, url: "https://linkedin.com/in/marcorossi" }
               ]
             },
             {
@@ -158,8 +157,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/8775456/pexels-photo-8775456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Profile of a man tasting white wine against a dark background, highlighting elegance.",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/sofia_wines" },
-                { icon: "Globe", url: "https://sofiawines.com" }
+                { icon: Twitter, url: "https://twitter.com/sofia_wines" },
+                { icon: Globe, url: "https://sofiawines.com" }
               ]
             },
             {
@@ -170,7 +169,7 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/3770093/pexels-photo-3770093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Smiling waiter stands in an elegant restaurant interior, exuding warmth and professionalism.",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/antoniomarino" }
+                { icon: Linkedin, url: "https://linkedin.com/in/antoniomarino" }
               ]
             }
           ]}
